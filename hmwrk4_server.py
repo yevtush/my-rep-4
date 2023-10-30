@@ -9,7 +9,7 @@ server_socket.listen(1)
 
 print(f"Сервер слухає на {host}:{port}")
 
-# Прийом та обробка з'єднання
+# Прийом та обробка
 client_socket, addr = server_socket.accept()
 print(f"З'єднання встановлене з {addr}")
 
