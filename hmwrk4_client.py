@@ -8,6 +8,7 @@ port = 12345
 client_socket.connect((host, port))
 print(f"Під'єднано до сервера {host}:{port}")
 
+# Прийом та обробка
 while True:
     message = input("Повідомлення клієнта: ")
     client_socket.send(message.encode())
